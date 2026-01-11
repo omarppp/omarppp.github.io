@@ -9,29 +9,26 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Omar | AI & Mechatronics Engineer
+title                    : "Omar | AI & Mechatronics Engineer"
 title_separator          : "-"
 name                     : &name "Omar Nady"
 description              : &description "AI & Mechatronics Engineer building reliable end-to-end robotics and embedded AI solutions."
-url                      : "https://omarppp.github.io" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
-                                                           # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+url                      : "https://omarppp.github.io"
+baseurl                  : ""
 repository               : "omarppp/omarppp.github.io"
 
-# Site Author - The following control what appear as part of the author content on the side bar.
-#               If a field is blank the icon and link will not appear, otherwise it will be shown.
-#               Additional customization can be done by editing /_includes/author-profile.html
+# Site Author
 author:
   # Biographic information
-  avatar: "omar.png"
-
+  avatar           : "profile.png"
   name             : "Omar Nady"
-  pronouns         : # example: "she/her"  
-  description      : &description "AI & Mechatronics Engineer building reliable end-to-end robotics and embedded AI solutions."
+  pronouns         :
+  description      : "AI & Mechatronics Engineer building reliable end-to-end robotics and embedded AI solutions."
   location         : "Cairo, Egypt"
   employer         : "EG Robotics"
-  uri              : "https://egrobots.com"
+  uri              :
   email            : "nomar7535@gmail.com"
+
 
   # Academic websites
   academia         : # URL
