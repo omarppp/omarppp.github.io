@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Omar Hussien Nady Mahmoud | AI • Robotics • Embedded"
+title                    : "Omar| AI • Robotics • Embedded"
 title_separator          : "-"
 name                     : &name "Omar Hussien Nady Mahmoud"
 description              : &description "AI & Mechatronics Engineer building robotics and embedded AI systems—focused on computer vision (OpenCV) and edge deployment."
