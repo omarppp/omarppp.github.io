@@ -6,79 +6,57 @@
 # `jekyll serve -l -H localhost`. If you change this file, please restart the 
 # server process.
 
-
 # Basic Site Settings
+locale                   : "en-US"
+site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+title                    : "Omar Hussien Nady Mahmoud | AI • Robotics • Embedded"
+title_separator          : "-"
+name                     : &name "Omar Hussien Nady Mahmoud"
+description              : &description "AI & Mechatronics Engineer building robotics and embedded AI systems—focused on computer vision (OpenCV) and edge deployment."
+url                      : "https://omarppp.github.io" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+                                                           # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
+repository               : "omarppp/omarppp.github.io"
 
-locale: "en-US"
-# AcademicPages theme switcher (skins)
-site_theme: "default"           # "default", "air", "sunrise", "mint", "dirt", "contrast"
-minimal_mistakes_skin: "default"
-
-title: "Omar Hussien Nady Mahmoud | AI • Robotics • Embedded"
-title_separator: "-"
-
-name: &name "Omar Hussien Nady Mahmoud"
-description: &description "AI & Mechatronics Engineer building robotics and embedded AI systems, focused on Computer Vision (OpenCV) and edge deployment."
-url: "https://omarppp.github.io"
-baseurl: ""
-repository: "omarppp/omarppp.github.io"
-
-# Site Author
+# Site Author - The following control what appear as part of the author content on the side bar.
+#               If a field is blank the icon and link will not appear, otherwise it will be shown.
+#               Additional customization can be done by editing /_includes/author-profile.html
 author:
-  avatar: "/images/profile.png"
-  name: "Omar Hussien Nady Mahmoud"
-  pronouns: ""
-  bio: "AI & Mechatronics Engineer specializing in Robotics, Embedded Systems, and Computer Vision (OpenCV). I build reliable end-to-end systems—from sensing to deployment."
-  location: "Cairo, Egypt"
-  employer: "EG Robotics"
-  uri: "https://egrobots.com"
-  email: "PUT_YOUR_EMAIL_HERE"
-
-  github: "omarppp"
-  linkedin: "PUT_LINKEDIN_USERNAME_HERE"
-
-
-
-  # Social / Profiles
-  github: "omarppp"
-  linkedin: "PUT_LINKEDIN_USERNAME_HERE"
-  cv: true
-
-  # Optional (uncomment if you have them)
-  # stackoverflow:
-  # twitter:
-  # youtube:
-  # google_scholar:
-  # orcid:
-  # medium:
-
+  # Biographic information
+  avatar           : "profile.png"
+  name             : "Omar Hussien Nady Mahmoud"
+  pronouns         : # example: "she/her"  
+  bio              : "AI & Mechatronics Engineer passionate about Robotics, Embedded Systems, and Computer Vision (OpenCV). I turn ideas into reliable end-to-end systems—from sensing and control to deployment on the edge."
+  location         : "Cairo, Egypt"
+  employer         : "EG Robotics"
+  uri              : "https://egrobots.com"
+  email            : "PUT_YOUR_EMAIL_HERE" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : # URL
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
+  orcid            : # URL
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL
   researchgate     : # URL
   scopus           : # URL
   zotero           : # URL
-
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "omarppp"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -87,7 +65,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "PUT_LINKEDIN_USERNAME_HERE"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
