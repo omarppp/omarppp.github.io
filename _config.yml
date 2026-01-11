@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Omar | AI & Mechatronics Engineer"
+title                    : "Welcome"
 title_separator          : "-"
 name                     : &name "Omar Nady"
 description              : &description "AI & Mechatronics Engineer building reliable end-to-end robotics and embedded AI solutions."
