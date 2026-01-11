@@ -5,32 +5,9 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+## Technical Reports
 
-{% include base_path %}
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
+- **Smart Obstacle & Object Detection Glasses — Technical Report** (2026)  
+  **Summary:** A practical assistive wearable system designed to enhance mobility and environmental awareness through real-time obstacle and object detection. The report covers system architecture, hardware integration, embedded implementation, and validation considerations for field use.  
+  **Keywords:** Assistive Wearables, Embedded Systems, Computer Vision, Object Detection, OpenCV, YOLO, Raspberry Pi, GPS  
+  **Download:** /files/Smart_Glasses_Technical_Report.pdf
