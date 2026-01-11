@@ -10,4 +10,4 @@ author_profile: true
 - **Smart Obstacle & Object Detection Glasses — Technical Report** (2026)  
   **Summary:** A practical assistive wearable system designed to enhance mobility and environmental awareness through real-time obstacle and object detection. The report covers system architecture, hardware integration, embedded implementation, and validation considerations for field use.  
   **Keywords:** Assistive Wearables, Embedded Systems, Computer Vision, Object Detection, OpenCV, YOLO, Raspberry Pi, GPS  
-  **Download:** /files/Smart_Glasses_Technical_Report.pdf
+  **Download (PDF):** [Smart_Glasses_Technical_Report.pdf](/files/Smart_Glasses_Technical_Report.pdf)
