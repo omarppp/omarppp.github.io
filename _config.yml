@@ -20,7 +20,7 @@ repository               : "omarppp/omarppp.github.io"
 # Site Author
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar: "omar.png.jpeg"
   name             : "Omar Nady"
   pronouns         :
   description      : "AI & Mechatronics Engineer building reliable end-to-end robotics and embedded AI solutions."
