@@ -1,3 +1,10 @@
+---
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
+---
+
 ## Technical Reports
 
 <div class="archive__item">
@@ -7,9 +14,9 @@
   </h3>
 
   <p class="page__meta">
-    <strong>Author:</strong> Omar Hussein Nady
-    &nbsp;|&nbsp; <strong>Type:</strong> Technical Report
-    &nbsp;|&nbsp; <strong>Focus:</strong> Assistive Wearables • Embedded AI • Computer Vision
+    <strong>Author:</strong> Omar Hussein Nady &nbsp;|&nbsp;
+    <strong>Type:</strong> Technical Report &nbsp;|&nbsp;
+    <strong>Domain:</strong> Assistive Wearables • Embedded AI • Computer Vision
   </p>
 
   <p>
@@ -32,28 +39,22 @@
     </a>
   </p>
 
-  <div style="margin: 1.25rem 0;">
-    <video
-      controls
-      preload="metadata"
-      playsinline
-      style="width:100%;max-width:980px;border-radius:14px;display:block;"
-    >
-      <source src="/files/smart-glasses-demo.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-    <p class="page__meta" style="margin-top:0.5rem;">
-      Demo video — Smart Glasses (Obstacle &amp; Object Detection)
-    </p>
-  </div>
-
   <details>
     <summary><strong>Read Abstract</strong></summary>
     <p style="margin-top: 0.75rem;">
-      The Smart obstacle &amp; object detection glasses project aims to help blind people in their daily lives by supporting both safe navigation and independent evaluation of food.
-      The system uses 3D-printed smart glasses with a Raspberry Pi camera, ultrasonic and IR sensors to estimate obstacle proximity, and a Raspberry Pi 4 (8GB) for on-device processing.
-      Three YOLOv8 models are employed for pathway detection, obstacle detection, and fruit identification, with real-time audio feedback for navigation and safety guidance.
+      The Smart obstacle &amp; object detection glasses project aims to support blind users in their daily lives through safe navigation and real-time environmental awareness.
+      The system combines a wearable camera with distance sensing and embedded processing to detect pathways, obstacles, and objects, and provides immediate audio feedback to the user.
+      The overall goal is to deliver a low-cost, energy-efficient, and field-ready assistive wearable that improves mobility and independence.
     </p>
   </details>
 
+  <div style="margin-top:1.25rem;">
+    <div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;">
+      <img src="/images/imagessmart-glassesxxx.jpg" alt="Smart Glasses — Prototype" style="width:100%;height:auto;border-radius:14px;display:block;">
+      <img src="/images/imagessmart-glassesyyy.png" alt="Smart Glasses — Results figure" style="width:100%;height:auto;border-radius:14px;display:block;">
+    </div>
+    <p class="page__meta" style="margin-top:0.6rem;">
+      Project snapshots: prototype hardware and technical results/analysis figure.
+    </p>
+  </div>
 </div>
