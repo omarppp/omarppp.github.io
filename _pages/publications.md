@@ -1,19 +1,15 @@
----
-layout: archive
-title: "Publications"
-permalink: /publications/
-author_profile: true
----
-
 ## Technical Reports
 
 <div class="archive__item">
-  <h3 class="archive__item-title">Smart Obstacle &amp; Object Detection Glasses — Technical Report <span class="page__meta">(2026)</span></h3>
+  <h3 class="archive__item-title">
+    Smart Obstacle &amp; Object Detection Glasses — Technical Report
+    <span class="page__meta">(2026)</span>
+  </h3>
 
   <p class="page__meta">
-    <strong>Author:</strong> Omar Hussein Nady &nbsp;|&nbsp;
-    <strong>Type:</strong> Technical Report &nbsp;|&nbsp;
-    <strong>Domain:</strong> Assistive Wearables • Embedded AI • Computer Vision
+    <strong>Author:</strong> Omar Hussein Nady
+    &nbsp;|&nbsp; <strong>Type:</strong> Technical Report
+    &nbsp;|&nbsp; <strong>Focus:</strong> Assistive Wearables • Embedded AI • Computer Vision
   </p>
 
   <p>
@@ -31,23 +27,33 @@ author_profile: true
   </p>
 
   <p>
-    <a class="btn btn--primary" href="/files/Smart_Glasses_Technical_Report.pdf" target="_blank" rel="noopener">Download PDF</a>
-    <a class="btn" href="/portfolio/" target="_self" rel="noopener">View Portfolio</a>
-    <a class="btn" href="https://github.com/omarppp" target="_blank" rel="noopener">GitHub</a>
+    <a class="btn btn--primary" href="/files/Smart_Glasses_Technical_Report.pdf" target="_blank" rel="noopener">
+      Download PDF
+    </a>
   </p>
+
+  <div style="margin: 1.25rem 0;">
+    <video
+      controls
+      preload="metadata"
+      playsinline
+      style="width:100%;max-width:980px;border-radius:14px;display:block;"
+    >
+      <source src="/files/smart-glasses-demo.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <p class="page__meta" style="margin-top:0.5rem;">
+      Demo video — Smart Glasses (Obstacle &amp; Object Detection)
+    </p>
+  </div>
 
   <details>
     <summary><strong>Read Abstract</strong></summary>
     <p style="margin-top: 0.75rem;">
-      The Smart obstacle &amp; object detection glasses project aims to help blind people in their daily lives by supporting both safe navigation and independent evaluation of food...
-      (You can paste the full abstract here if you want.)
+      The Smart obstacle &amp; object detection glasses project aims to help blind people in their daily lives by supporting both safe navigation and independent evaluation of food.
+      The system uses 3D-printed smart glasses with a Raspberry Pi camera, ultrasonic and IR sensors to estimate obstacle proximity, and a Raspberry Pi 4 (8GB) for on-device processing.
+      Three YOLOv8 models are employed for pathway detection, obstacle detection, and fruit identification, with real-time audio feedback for navigation and safety guidance.
     </p>
   </details>
 
-  <figure class="third" style="margin-top: 1.25rem;">
-    <img src="/images/smart-glasses/prototype.jpg" alt="Smart glasses prototype">
-    <img src="/images/smart-glasses/gauntlet.jpg" alt="Raspberry Pi gauntlet">
-    <img src="/images/smart-glasses/demo.jpg" alt="Field demonstration">
-    <figcaption>Prototype snapshots: eyewear, processing gauntlet, and field testing.</figcaption>
-  </figure>
 </div>
