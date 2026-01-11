@@ -1,93 +1,120 @@
 ---
 layout: single
-title: "Omar Nady"
+title: "Omar Hussein Nady"
 permalink: /
 author_profile: true
 classes: wide
 ---
 
-## AI & Mechatronics Engineer
+## AI & Mechatronics Engineer — Robotics, Embedded Systems, and Applied AI
 
-I am an AI & Mechatronics Engineer focused on building practical, dependable systems that connect software intelligence to real-world hardware. My work sits at the intersection of robotics, embedded development, and applied machine learning—where requirements, constraints, and reliability matter as much as innovation. I approach engineering with a structured, implementation-driven mindset: define the problem clearly, design for robustness, validate with measurable tests, and iterate until the system behaves predictably in real conditions.
+I build practical, reliable systems that bridge intelligent software with real-world hardware. My work focuses on robotics and embedded development, with applied AI and data-driven evaluation when it makes the product better—not just the demo.
 
-Across projects and hands-on training, I have developed strong fundamentals in electronics and embedded firmware, along with the ability to integrate sensors, actuators, and computation into coherent solutions. I am comfortable moving between layers—from low-level debugging and hardware bring-up, to control logic, to AI model integration and optimization. I value clean documentation, reproducible workflows, and version-controlled development, and I aim to deliver outcomes that are testable, maintainable, and ready for real deployment—not just demonstrations.
+I’m currently working at **EG Robotics**, and I’ve trained across multiple engineering environments—covering embedded/robotics, hardware bring-up, PCB design, and analytical workflows in data science.
+
+[Portfolio](/portfolio/) {: .btn .btn--primary }
+[CV](/cv/) {: .btn }
+[GitHub](https://github.com/YOUR_USERNAME) {: .btn }
+[LinkedIn](https://www.linkedin.com/in/YOUR_USERNAME/) {: .btn }
+
+---
+
+## At a Glance
+
+- **Current:** Mechatronics & AI Engineer at **EG Robotics**
+- **Core Interests:** Robotics, embedded firmware, system integration, and applied ML
+- **Hands-on Strength:** PCB design and hardware bring-up, end-to-end prototyping
+- **Analytical Strength:** Solid math foundation, data analysis, and evaluation mindset
+- **Tooling Mindset:** Clean documentation, reproducible workflows, and version control
+
+---
+
+## What I Do
+
+### Robotics & Control
+Design and integrate robotic subsystems—sensing, actuation, and control—aiming for predictable behavior under real constraints (latency, noise, power, reliability).
+
+### Embedded Systems & Hardware Integration
+Develop firmware and interfaces, handle hardware bring-up, debug at the signal and protocol level, and connect sensors/actuators into coherent, testable systems.
+
+### Applied AI & Data Work
+Use machine learning and data analysis where they create measurable value—model integration, performance evaluation, and iteration driven by metrics.
 
 ---
 
 ## Core Focus
 
-- **Robotics Engineering:** system design, sensing, control, and integration
-- **Embedded Systems:** firmware development, interfaces, and hardware bring-up
-- **AI Engineering:** model development, optimization, and integration into products
-- **Data & Evaluation:** structured experimentation, metrics, and performance tracking
-- **Engineering Practice:** documentation, Git-based workflows, and iterative testing
+- **Robotics Engineering:** system design, sensing, control, and integration  
+- **Embedded Systems:** firmware development, interfaces, and hardware bring-up  
+- **PCB & Electronics:** schematic/PCB design, prototyping, and debugging  
+- **AI Engineering:** model development, optimization, and integration into products  
+- **Data & Evaluation:** structured experimentation, metrics, and performance tracking  
+- **Engineering Practice:** documentation, Git-based workflows, and iterative testing  
 
 ---
 
-## Key Skills
+## Experience & Training
 
-### Robotics & Control
-- Sensors integration and calibration  
-- Motion/control logic and real-time decision making  
-- System integration and validation testing  
+### EG Robotics — Mechatronics / AI Engineer (Current)
+- Robotics-oriented development with a practical delivery mindset  
+- Embedded integration and system-level debugging  
+- Applied AI and evaluation when relevant to product performance  
 
-### Embedded Systems
-- MCU firmware development (drivers, peripherals, timing)  
-- Serial communication and hardware interfaces  
-- Debugging, bring-up, and reliability-oriented implementation  
+### Previous Training / Collaboration
+I’ve trained and worked across multiple teams and environments, including:
 
-### AI / Machine Learning
-- Data preparation and feature engineering  
-- Model training, evaluation, and optimization  
-- Deployment-oriented integration (latency, footprint, constraints)  
+- **EL Group**  
+- **Joystick Repair**  
+- **EG Robotics** (training / hands-on involvement)  
+- **Smart Homey**  
 
-### Data & Engineering Workflow
-- Experiment design and result reporting  
-- Git version control and structured documentation  
-- Linux-based development and tooling  
+> If you want, I can convert كل بند فوق إلى “1–3 bullets” دقيقة (مساهماتك/الأدوات/النتيجة) بمجرد ما تقولي كل مكان كنت بتعمل فيه إيه بالظبط.
 
 ---
 
-## Programming Languages & Technologies
+## Technical Skills
 
-### Programming Languages
-- **C, C++**
-- **Python**
-- **MATLAB**
-- **SQL**
-- **Java**
-- **JavaScript / TypeScript**
-- **Bash / Shell**
-- **Arduino (C/C++ for embedded)**
+### Programming & Software
+- Comfortable across **multiple programming languages** and software stacks  
+- Strong fundamentals in problem solving, debugging, and clean implementation  
 
 ### Embedded & Hardware
-- MCU development, peripherals, interrupts, timers  
-- UART / I2C / SPI / PWM / ADC  
-- Hardware debugging and testing practices  
+- Microcontrollers, peripherals, interfaces, and hardware bring-up  
+- Sensor/actuator integration, timing-sensitive logic, and reliability considerations  
 
-### AI / Data Science Stack
-- NumPy, Pandas
-- scikit-learn
-- PyTorch / TensorFlow (as applicable)
-- Model evaluation, validation, and performance measurement
+### PCB & Electronics
+- PCB design workflow (schematics → layout → prototyping → validation)  
+- Debugging mindset: signals, power integrity basics, and test-driven verification  
 
-### Tools
-- Git / GitHub
-- Linux
-- Documentation-first workflows
+### Data Science & Analytics
+- Strong math foundation and confidence with **data analysis**  
+- Metrics-first evaluation and iteration loops  
 
 ---
 
-## Training
+## Selected Work (Recommended)
 
-- **EG Robotics** — Robotics & Embedded training / practical engineering work  
-- **Waly Group** — Technical training (hands-on and applied practice)  
-- **Joystick Repair** — hardware troubleshooting, diagnosis, and repair practice  
+If you want the homepage to look “complete” and impressive, add 3–6 cards هنا (حتى لو مشاريع بسيطة).  
+اكتب اسم كل مشروع + سطرين: المشكلة → الحل → النتيجة.
+
+- **Robotics Project:** Brief one-liner about the system + your role + key result  
+- **Embedded System:** Device/firmware + interfaces + what you validated  
+- **PCB Design:** Board purpose + stack/tools + what you tested  
+- **Data/AI Work:** dataset/goal + approach + evaluation metric/result  
+
+---
+
+## Working Style
+
+- I prefer **clear requirements**, measurable tests, and iteration based on evidence.  
+- I enjoy bridging layers—from hardware constraints to software architecture—until the system behaves predictably in real conditions.  
+- I document decisions, keep workflows reproducible, and use version control seriously.
 
 ---
 
 ## Contact
 
-- **Email:** nomar7535@gmail.com  
-- **LinkedIn:** https://www.linkedin.com/in/omar-nady-b7b69627b/  
-- **GitHub:** omarppp
+If you’d like to collaborate on robotics, embedded systems, or applied AI work, the fastest way to reach me is via email or LinkedIn.
+
+[Email](mailto:YOUR_EMAIL@example.com) {: .btn .btn--primary }
+[LinkedIn](https://www.linkedin.com/in/YOUR_USERNAME/) {: .btn }
