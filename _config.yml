@@ -1,195 +1,291 @@
-# =============================================================================
-# Jekyll / AcademicPages Site Configuration
-# =============================================================================
+# Welcome to omar 
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve -l -H localhost`. If you change this file, please restart the 
+# server process.
 
-# -----------------------------
+
 # Basic Site Settings
-# -----------------------------
+
 locale: "en-US"
-
-# AcademicPages custom theme switcher (skins)
-site_theme: "default" # "default", "air", "sunrise", "mint", "dirt", "contrast"
-
-# Minimal Mistakes skin (safe to keep aligned with site_theme)
+# AcademicPages theme switcher (skins)
+site_theme: "default"           # "default", "air", "sunrise", "mint", "dirt", "contrast"
 minimal_mistakes_skin: "default"
 
 title: "Omar Hussien Nady Mahmoud | AI • Robotics • Embedded"
 title_separator: "-"
 
 name: &name "Omar Hussien Nady Mahmoud"
-description: &description "AI & Mechatronics Engineer building robotics and embedded AI systems, with a focus on computer vision (OpenCV) and edge deployment."
-
-# IMPORTANT: url must be your GitHub Pages domain
+description: &description "AI & Mechatronics Engineer building robotics and embedded AI systems, focused on Computer Vision (OpenCV) and edge deployment."
 url: "https://omarppp.github.io"
-baseurl: "" # keep empty for user.github.io sites
-
-# Repository (used by GitHub metadata + some theme links)
+baseurl: ""
 repository: "omarppp/omarppp.github.io"
 
-# If you want a short tagline under the title in some layouts (optional)
-tagline: "Robotics • Embedded Systems • Computer Vision"
+# Site Author
+author:
+  avatar: "/images/profile.png"
+  name: "Omar Hussien Nady Mahmoud"
+  pronouns: ""
+  bio: "AI & Mechatronics Engineer specializing in Robotics, Embedded Systems, and Computer Vision (OpenCV). I build reliable end-to-end systems—from sensing to deployment."
+  location: "Cairo, Egypt"
+  employer: "EG Robotics"
+  uri: "https://egrobots.com"
+  email: "PUT_YOUR_EMAIL_HERE"
 
-# -----------------------------
-# Build Settings
-# -----------------------------
+  github: "omarppp"
+  linkedin: "PUT_LINKEDIN_USERNAME_HERE"
+
+
+
+  # Social / Profiles
+  github: "omarppp"
+  linkedin: "PUT_LINKEDIN_USERNAME_HERE"
+  cv: true
+
+  # Optional (uncomment if you have them)
+  # stackoverflow:
+  # twitter:
+  # youtube:
+  # google_scholar:
+  # orcid:
+  # medium:
+
+
+  # Academic websites
+  academia         : # URL
+  arxiv            : # URL - Update with the correct link to your profile
+  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  inspire-hep      : # URL
+  impactstory      : # URL
+  orcid            : "https://orcid.org/yourorcidurl"
+  semantic         : # URL
+  ssrn             : # URL
+  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  researchgate     : # URL
+  scopus           : # URL
+  zotero           : # URL
+
+
+  # Repositories and software development
+  bitbucket        : # Username - Update with your username on the site
+  codepen          : # Username
+  dribbble         : # Username
+  github           : "academicpages"
+  kaggle           : # Username  
+  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+
+  # Social media
+  artstation       : # Username
+  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  facebook         : # Username
+  flickr           : # Username
+  foursquare       : # Username
+  goodreads        : # Username
+  google_plus      : # Username
+  keybase          : # Username
+  instagram        : # Username
+  lastfm           : # Username
+  linkedin         : # Username
+  mastodon         : # URL
+  medium           : # URL
+  pinterest        : # Username
+  soundcloud       : # Username
+  steam            : # Username
+  telegram         : # URL
+  tumblr           : # Username
+  twitter          : # Username for X / Twitter
+  vine             : # Username
+  weibo            : # Username
+  wikipedia        : # Username
+  xing             : # Username
+  youtube          : # Username
+  zhihu            : # Username
+
+# Publication Category - The following the list of publication categories and their headings
+publication_category:
+  books:
+    title: 'Books'
+  manuscripts:
+    title: 'Journal Articles'    
+  conferences:
+    title: 'Conference Papers'
+
+# Site Settings
+teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
+breadcrumbs              : false # true, false (default)
+words_per_minute         : 160
+future                   : true
+read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
+talkmap_link             : false      #change to true to add link to talkmap on talks page
+comments:
+  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  disqus:
+    shortname            :
+  discourse:
+    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+  facebook:
+    appid                :
+    num_posts            : # 5 (default)
+    colorscheme          : # "light" (default), "dark"
+staticman:
+  allowedFields          : ['name', 'email', 'url', 'message']
+  branch                 : "gh-pages" # "master", "gh-pages"
+  commitMessage          : "New comment."
+  filename               : comment-{@timestamp}
+  format                 : "yml"
+  moderation             : true
+  path                   : "_data/comments/{options.slug}"
+  requiredFields         : ['name', 'email', 'message']
+  transforms:
+    email                : "md5"
+  generatedFields:
+    date:
+      type               : "date"
+      options:
+        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+atom_feed:
+  hide                   : false     # change to true to hide the RSS feed in the footer
+  path                   : # blank (default) uses feed.xml
+
+
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+alexa_site_verification  :
+yandex_site_verification :
+
+
+# Social Sharing
+twitter:
+  username               : &twitter
+facebook:
+  username               :
+  app_id                 :
+  publisher              :
+og_image                 :  # Social media default site image
+og_description           :  # Social media default site image description
+# For specifying social profiles
+# - https://developers.google.com/structured-data/customize/social-profiles
+social:
+  type                   : # Person or Organization (defaults to Person)
+  name                   : # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
+
+
+# Analytics
+analytics:
+  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  google:
+    tracking_id          :
+
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+  - files
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .github
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - CHANGELOG
+  - Capfile
+  - config
+  - Dockerfile
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - local
+  - log
+  - node_modules
+  - package.json*
+  - Rakefile
+  - README
+  - tmp
+  - vendor
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+
+# Conversion
 markdown: kramdown
 highlighter: rouge
-permalink: /:categories/:title/
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
 
-# Build behavior
-future: true
-timezone: "Africa/Cairo"
-encoding: "utf-8"
 
-# Pagination (Blog Posts)
-paginate: 5
-paginate_path: /page:num/
-
-# -----------------------------
-# Author / Sidebar Profile
-# (This powers the left sidebar)
-# -----------------------------
-author:
-  # NOTE:
-  # If your file is actually /images/profile.png (without .jpeg), change this line.
-  avatar: "/images/profile.png.jpeg"
-
-  name: *name
-  pronouns: ""
-  location: "Cairo, Egypt"
-
-  # Creative / richer bio (shows in sidebar)
-  bio: >
-    AI & Mechatronics Engineer at EG Robotics. I build real-world robots end-to-end:
-    embedded firmware, sensing & control, and computer vision pipelines.
-    Focus areas: OpenCV, real-time perception, edge AI deployment, and reliable integration.
-
-  employer: "EG Robotics (Robotics & Embedded)"
-  uri: "https://egrobots.com/"
-
-  # Contact (leave empty if you don’t want it shown)
-  email: ""  # مثال: "omar@example.com"
-
-  # Social usernames (fill only what you want to appear)
-  github: "omarppp"
-  linkedin: ""          # مثال: "omar-hussien-xxxx"
-  twitter: ""           # or x
-  youtube: ""
-  facebook: ""
-  instagram: ""
-  kaggle: ""
-  medium: ""
-  stackoverflow: ""
-  scholar: ""           # Google Scholar profile ID/URL (depends on theme usage)
-  orcid: ""
-  pubmed: ""
-  bluesky: ""
-
-# -----------------------------
-# Site Footer / SEO Defaults
-# -----------------------------
-twitter:
-  username: ""          # optional
-og_image: ""            # optional default social preview image path
-# logo: "/images/logo.png"  # optional
-
-# -----------------------------
-# Analytics (optional)
-# -----------------------------
-analytics:
-  provider: "false"     # set to "google-gtag" or "google-universal" if you use it
-  google:
-    tracking_id: ""
-
-# -----------------------------
-# Comments (optional)
-# -----------------------------
-comments:
-  provider: "false"     # disqus, utterances, etc. if needed later
-
-# -----------------------------
-# Search (Minimal Mistakes)
-# -----------------------------
-search: true
-search_full_content: false
-
-# -----------------------------
-# Reading / UI
-# -----------------------------
-breadcrumbs: true
-words_per_minute: 200
-
-# -----------------------------
-# Kramdown Settings
-# -----------------------------
+# Markdown Processing
 kramdown:
   input: GFM
   hard_wrap: false
   auto_ids: true
-  toc_levels: 1..3
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
 
-# -----------------------------
-# Plugins (GitHub Pages-safe set)
-# -----------------------------
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-include-cache
 
-# -----------------------------
-# Collections (AcademicPages)
-# -----------------------------
+# These settings control the types of collections used by the template
 collections:
-  publications:
-    output: true
-    permalink: /publications/:path/
-  portfolio:
-    output: true
-    permalink: /portfolio/:path/
-  talks:
-    output: true
-    permalink: /talks/:path/
   teaching:
     output: true
-    permalink: /teaching/:path/
+    permalink: /:collection/:path/
+  publications:
+    output: true
+    permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+  talks:
+    output: true
+    permalink: /:collection/:path/
 
-# -----------------------------
-# Defaults (Layouts per folder/type)
-# -----------------------------
+
+# These settings control how pages and collections are included in the site
 defaults:
-  # Pages in _pages
+  # _posts
   - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-
-  # Blog posts
-  - scope:
-      path: "_posts"
+      path: ""
       type: posts
     values:
       layout: single
       author_profile: true
       read_time: true
-      comments: false
+      comments: true
       share: true
       related: true
-
-  # Portfolio items
+  # _pages
   - scope:
       path: ""
-      type: portfolio
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _teaching
+  - scope:
+      path: ""
+      type: teaching
     values:
       layout: single
       author_profile: true
       share: true
-
-  # Publications
+      comments: true
+  # _publications
   - scope:
       path: ""
       type: publications
@@ -197,8 +293,17 @@ defaults:
       layout: single
       author_profile: true
       share: true
-
-  # Talks
+      comments: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # _talks
   - scope:
       path: ""
       type: talks
@@ -207,38 +312,71 @@ defaults:
       author_profile: true
       share: true
 
-  # Teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
 
-# -----------------------------
-# Include / Exclude
-# -----------------------------
-include:
-  - _pages
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
-exclude:
-  - .github
-  - .devcontainer
-  - node_modules
-  - vendor
-  - Gemfile
-  - Gemfile.lock
-  - package.json
-  - package-lock.json
-  - yarn.lock
-  - README.md
-  - LICENSE
-  - docker-compose.yaml
-  - Dockerfile
-  - _config_docker.yml
-  - scripts
-  - markdown_generator
-  - talkmap
-  - talkmap.ipynb
-  - talkmap_out.ipynb
+
+# Outputting
+permalink: /:categories/:title/
+# paginate: 5 # amount of posts to show
+# paginate_path: /page:num/
+timezone: Etc/UTC # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
+
+# Mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
+
+
+# Archives
+#  Type
+#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+#  Path (examples)
+#  - Archive page should exist at path when using Liquid method or you can
+#    expect broken links (especially with breadcrumbs enabled)
+#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path/my-awesome-category/index.html ~> path: /
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+# https://github.com/jekyll/jekyll-archives
+# jekyll-archives:
+#   enabled:
+#     - categories
+#     - tags
+#   layouts:
+#     category: archive-taxonomy
+#     tag: archive-taxonomy
+#   permalinks:
+#     category: /categories/:name/
+#     tag: /tags/:name/
+
+
+# HTML Compression
+# - https://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
