@@ -1,64 +1,72 @@
 ---
-layout: archive
+layout: single
 title: "CV"
 permalink: /cv/
 author_profile: true
-redirect_from:
-  - /resume
 ---
 
-{% include base_path %}
+## Omar Nady
+**Location:** Cairo, Egypt  
+**Affiliation:** EG Robotics  
+**Email:** (ضع ايميلك هنا)  
+**LinkedIn:** (الرابط)  
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+---
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+## Summary
+Mechatronics / Embedded Systems engineer focused on **embedded AI**, **computer vision**, and **mechatronics integration**. Interested in building practical, deployable systems with clear engineering documentation and measurable results.
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+---
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## Education
+**(University Name)** — B.Sc. Mechatronics Engineering  
+(Year) — (Year)  
+- Relevant coursework: Embedded Systems, Control, Computer Vision, Robotics, IoT
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+---
+
+## Technical Skills
+- **Embedded / IoT:** Raspberry Pi, (ESP32/Arduino إن وجد), Sensors, Serial/I2C/SPI
+- **Computer Vision:** OpenCV, YOLOv8, Real-time inference pipelines
+- **Programming:** Python, C/C++ (عدّل حسب اللي عندك)
+- **Tools:** Git, Linux, (KiCad / SolidWorks / Fusion إن وجد)
+
+---
+
+## Projects
+### Assistive Smart Glasses for the Visually Impaired (Raspberry Pi + GPS)
+A wearable system to support mobility and awareness by detecting obstacles/potholes in real environments, with reading support and integrated GPS.  
+**Tech:** Raspberry Pi • OpenCV • YOLOv8 • Ultrasonic/IR • GPS
+
+### Fruit Spoilage Detection Robot Arm
+A perception-driven robotic arm concept for fruit quality control, improving consistency in identifying defective items.
+
+### IoT Hardware System for PlayStation Stores (Full Control)
+A centralized hardware IoT solution for operational control and monitoring in PlayStation stores.
+
+### Remote-Controlled Factory Carrier Cart
+A remotely operated carrier cart designed for stable motion and practical deployment in factory environments.
+
+### Smart Furniture (Mechatronics Integration)
+Mechatronics-integrated furniture concept combining sensing and actuation for responsive interactions.
+
+---
+
+## Experience
+**(Role)** — (Company/Team)  
+(Month Year) — (Month Year)  
+- Bullet 1  
+- Bullet 2  
+
+---
+
+## Certifications / Activities
+- (Course/Certificate) — (Platform)  
+- (Competition / Volunteering / Club)
+
+---
+
+## Download
+<a class="btn btn--primary" href="{{ '/files/Omar_Nady_CV.pdf' | relative_url }}" target="_blank" rel="noopener">
+Download CV (PDF)
+</a>
