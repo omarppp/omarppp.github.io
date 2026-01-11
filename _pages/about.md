@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Omar Hussein Nady"
+title: " Hi "
 permalink: /
 author_profile: true
 classes: wide
